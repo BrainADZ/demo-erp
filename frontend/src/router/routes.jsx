@@ -30,8 +30,8 @@ const Employees = lazy(() => import('@/pages/Employees'));
 const Profile = lazy(() => import('@/pages/Profile'));
 
 const About = lazy(() => import('@/pages/About'));
-const EnquiryList = lazy(() => import('@/pages/Enquiry/EnquiryList'));
-const EnquiryDetail = lazy(() => import('@/pages/Enquiry/EnquiryDetail'));
+const EnquiryList = lazy(() => import('@/pages/enquiry/EnquiryList'));
+const EnquiryDetail = lazy(() => import('@/pages/enquiry/EnquiryDetail'));
 
 let routes = {
   expense: [],
