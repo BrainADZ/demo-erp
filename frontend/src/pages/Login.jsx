@@ -35,10 +35,9 @@ const LoginPage = () => {
           layout="vertical"
           name="normal_login"
           className="login-form"
+          autoComplete="off"
           initialValues={{
-            remember: true,
-            email: 'admin@admin.com',
-            password: 'admin123',
+            remember: false,
           }}
           onFinish={onFinish}
         >
